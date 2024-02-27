@@ -1,0 +1,30 @@
+body {
+    font-family: Arial,  sans-serif; /* Rodzina czcionek */
+    font-size: 21px; /* Rozmiar głównej czcionki w <p></p> tag  */
+    background-color: #f0f0f0; /* Kolor tła strony internetowej */
+    color: cadetblue; /* Kolor tła strony internetowej*/ 
+}
+h1:hover { animation: color-change 3s infinite; 
+    color: cadetblue; /* Kolor nagłówka */
+    font-size: 33px; /* Rozmiar czcionki nagłówka */
+    font-family: Arial, serif; /* Rodzina czcionek używana w nagłówku */
+}
+h2 {
+    color: cadetblue;
+    font-size: larger;
+    font-family: Arial, serif;
+}
+
+@keyframes color-change {
+    0% {
+      color: rgb(255, 0, 0);
+    }
+    
+    50% {
+      color: rgb(30, 0, 255);
+    }
+
+    100% {
+      color: rgb(255, 0, 0);
+    }
+  }
